@@ -48,6 +48,7 @@ Vervolgens dien je ook naar de GitHub pagina te surfen en te zorgen dat alles on
 
 | Challenge | Description | Percentage |
 | --- | --- | :---: |
-| [Cheaters Be Gone](./CheatersBeGone/README.md) | Tellen van aantal dobbelsteen worpen en bepalen van gooikans | `25%` |
-| [Path To Exile](./PathToExile/README.md) | Conversie en parsen van strings | `25%` |
-| [Key of Spirits](./KeyOfSpirits/README.md) | Key-value omzetten naar JSON-formaat | `25%` |
+| [Cheaters Be Gone](./CheatersBeGone/README.md) | Tellen van aantal dobbelsteen worpen en bepalen van gooikans | `30%` |
+| [Path To Exile](./PathToExile/README.md) | Conversie en parsen van strings | `30%` |
+| [Key of Spirits](./KeyOfSpirits/README.md) | Key-value omzetten naar JSON-formaat | `30%` |
+| [Stats Can Prove Anything](./StatsCanProveAnything/README.md) | Debuggen en fixen van een bar plot applicatie | `10%` |
