@@ -50,3 +50,4 @@ Vervolgens dien je ook naar de GitHub pagina te surfen en te zorgen dat alles on
 | --- | --- | :---: |
 | [Cheaters Be Gone](./CheatersBeGone/README.md) | Tellen van aantal dobbelsteen worpen en bepalen van gooikans | `25%` |
 | [Path To Exile](./PathToExile/README.md) | Conversie en parsen van strings | `25%` |
+| [Key of Spirits](./KeyOfSpirits/README.md) | Key-value omzetten naar JSON-formaat | `25%` |
