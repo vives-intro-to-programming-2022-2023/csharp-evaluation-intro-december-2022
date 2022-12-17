@@ -19,7 +19,7 @@ Om dit te verwezenlijk dien je volgende methodes te implementeren in `PathParser
 * `int[] ConvertToNumbers(string path)`: De krijgt het origineel formaat binnen en zit om naar een array van `int` waarden
   * Indien `path` een lege string is of null, dien je zelf een lege array van `int` terug te geven
 
-**Puntenverdeling:** 3/5 voor ConvertToCsv en 2/5 voor ConvertToNumbers
+**Puntenverdeling:** 3/5 voor `ConvertToCsv` en 2/5 voor `ConvertToNumbers`
 
 ## Verwachte Werking
 
