@@ -22,7 +22,7 @@ Hiervoor dien je volgende methodes te implementeren van de class `JsonConverter`
 * `string KeyValueToString(string key, int value)`: deze methode zet een key en waarde om in het string formaat `"key": value`, waarbij de key wordt omringd door dubbele quotes.
   * Je mag er van uit gaan dat zowel `key` als `value` een geldige waarde bevatten en niet `null` of leeg zijn.
 * `string ToJsonObject(string[] keys, int[] values)`: deze methode zet een combinatie van een key-array en value-array om naar een geldige JSON string voorstelling
-  * Indien beide arrays niet evenveel elementen hebben mag je een leeg JSON object returnen `{}`
+  * Indien beide arrays niet evenveel elementen hebben dien je een leeg JSON object te returnen `{}`
   * Je mag er van uit gaan dat de arrays niet `null` zijn.
 
 **Puntenverdeling:** 1/3 voor `KeyValueToString` en 2/3 voor `ToJsonObject`
@@ -38,7 +38,7 @@ Here is an example of a nice JSON object:
 { "health": 123, "damage": 15, "speed": 23, "mana": 188 }
 
 Or even an empty object:
-{ "health": 123, "damage": 15, "speed": 23, "mana": 188 }
+{  }
 
 Thank you for using Key of Spirits
 ```

@@ -13,6 +13,8 @@ namespace KeyOfSpirits
             // TODO - Converteer de key en value in een string volgens volgend formaat:
             // "key": value
 
+            // Je mag er van uit gaan dat `key` en `value` steeds geldige waarden bevatten.
+
 
 
 
