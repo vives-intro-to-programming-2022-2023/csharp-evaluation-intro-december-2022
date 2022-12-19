@@ -2,7 +2,7 @@
 
 Voor elk tournament van een dobbelspel worden alle dobbelstenen onderworpen aan een test. Hierbij wordt de dobbelsteen een aantal keer geworpen en wordt telkens bijgehouden hoeveel ogen er worden geworpen. Dit wordt typisch in een frequentietabel gedaan. Dat is een array waar de index het aantal ogen (-1 natuurlijk omdat een dobbelsteen vanaf 1 start en een array vanaf 0) voorstelt en de waarde op die index het aantal keer dat werd geworpen.
 
-Een goeie dobbelsteen geeft evenveel kans om elk aantal ogen te werpen, namelijk 1 op het maximum aantal ogen.
+Een goeie dobbelsteen geeft evenveel kans om elk aantal ogen te werpen, namelijk 1 op het aantal dobbelsteen vlakken.
 
 Stel je hebt bijvoorbeeld volgende resultaat van het gooi-experiment: `[51, 52, 47, 53, 48, 72]`
 
@@ -11,7 +11,7 @@ Dan kan je stellen dat kans om een `1` te gooien `51 / TOTAAL_WORPEN` = `51/323`
 De class `DieChecker` vormt het begin van een validatie class die nagaat of er met de dobbelsteen niet werd geprutst. Volgende implementatie dient te worden voorzien:
 
 * `int CountTotalRolls(int[] frequencyTable)`: deze methode krijgt de frequentietabel als input en bepaalt hoe dikwijls er in totaal werd gegooid.
-* `double[] DetermineThrowChances(int[] frequencyTable)`: deze methode krijgt de frequentietabel als input en bepaalde kans voor elk aantal ogen op basis van het experiment.
+* `double[] DetermineThrowChances(int[] frequencyTable)`: deze methode krijgt de frequentietabel als input en bepaalt de kans voor elk aantal ogen op basis van het experiment.
   * Return een array van `double` waarden die telkens de gooikans voorstelt.
 
 **Puntenverdeling:** 1/2 voor `CountTotalRolls` en 1/2 voor `DetermineThrowChances`
