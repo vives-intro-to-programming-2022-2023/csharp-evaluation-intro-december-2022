@@ -16,7 +16,7 @@ Om dit te verwezenlijk dien je volgende methodes te implementeren in `PathParser
 * `string ConvertToCsv(string path)`: Deze krijgt het origineel formaat binnen en zet dit om naar CSV waarden.
   * Merk op dat er geen spaties mogen staan in de CSV string
   * Indien `path` een lege string is of null, dien je zelf een lege string terug te geven
-* `int[] ConvertToNumbers(string path)`: De krijgt het origineel formaat binnen en zit om naar een array van `int` waarden
+* `int[] ConvertToNumbers(string path)`: Deze krijgt het origineel formaat binnen en dient dit om te zetten naar een array van `int` waarden
   * Indien `path` een lege string is of null, dien je zelf een lege array van `int` terug te geven
 
 **Puntenverdeling:** 3/5 voor `ConvertToCsv` en 2/5 voor `ConvertToNumbers`
